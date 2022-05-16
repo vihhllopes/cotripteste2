@@ -1,0 +1,94 @@
+ul {
+  float: right;
+  padding-bottom: 15px;
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 5px;
+  margin-right: 60px;
+
+  background-color: none;
+}
+
+body {
+  background-image: url(capa.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 980px;
+}
+
+#principal_msg {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.principal_msg_title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  color: #1e3c4c;
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+.principal_msg_sub {
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+li a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+.secundary-button {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #6f7175;
+  border-radius: 4px;
+  width: 100px;
+  padding: 10px 24px;
+  opacity: 0.7;
+}
+
+.create-button {
+  background-color: #00cc33;
+  border-color: #00cc33;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px 24px;
+}
+
+.create-button a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.zap {
+  margin-left: 1200px;
+  margin-top: 150px;
+}
+
+footer {
+  height: 20px;
+}
